@@ -10,7 +10,7 @@ richusir
 /
 RICHUSER_B1
 Public
-forked from richusir/RICHUSER_B1
+forked from tocymol/AKHILSER_B1
 0
 1121
 Code
@@ -31,7 +31,7 @@ Latest commit 21d64e4 on 9 Aug
 274 lines (239 sloc)  11.5 KB
   
 /* Copyright (C) 2020 Yusuf Usnta.
-RECODDED BY richumlp
+RECODDED BY akhil
 Plk  
 */
 
@@ -276,7 +276,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, 'RICHUSERBOT_🐱_[error] ' +
+                                await conn.sendMessage(conn.user.jid, 'AKHILSERBOT_🐱_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                             }
